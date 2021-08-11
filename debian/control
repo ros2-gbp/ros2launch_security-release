@@ -1,0 +1,12 @@
+Source: ros-galactic-ros2launch-security-examples
+Section: misc
+Priority: optional
+Maintainer: Ted Kern <ted.kern@canonical.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-ament-nodl, ros-galactic-example-interfaces, ros-galactic-launch-testing, ros-galactic-launch-testing-ament-cmake, ros-galactic-launch-testing-ros, ros-galactic-nodl-python, ros-galactic-nodl-to-policy, ros-galactic-rclcpp, ros-galactic-rclcpp-components, ros-galactic-rclpy, ros-galactic-ros2launch-security, ros-galactic-sensor-msgs, ros-galactic-sros2, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-ros2launch-security-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-ament-nodl, ros-galactic-example-interfaces, ros-galactic-rclcpp, ros-galactic-rclcpp-components, ros-galactic-rclpy, ros-galactic-ros2launch-security, ros-galactic-sensor-msgs, ros-galactic-ros-workspace
+Description: Examples of how to use the ros2launch_security extension.
