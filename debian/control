@@ -1,0 +1,12 @@
+Source: ros-rolling-ros2launch-security-examples
+Section: misc
+Priority: optional
+Maintainer: Ted Kern <ted.kern@canonical.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-ament-nodl, ros-rolling-example-interfaces, ros-rolling-launch-testing, ros-rolling-launch-testing-ament-cmake, ros-rolling-launch-testing-ros, ros-rolling-nodl-python, ros-rolling-nodl-to-policy, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rclpy, ros-rolling-ros2launch-security, ros-rolling-sensor-msgs, ros-rolling-sros2, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-ros2launch-security-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ament-nodl, ros-rolling-example-interfaces, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rclpy, ros-rolling-ros2launch-security, ros-rolling-sensor-msgs, ros-rolling-ros-workspace
+Description: Examples of how to use the ros2launch_security extension.
