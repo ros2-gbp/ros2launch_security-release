@@ -1,0 +1,12 @@
+Source: ros-humble-ros2launch-security-examples
+Section: misc
+Priority: optional
+Maintainer: Ted Kern <ted.kern@canonical.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ament-nodl, ros-humble-example-interfaces, ros-humble-launch-testing <!nocheck>, ros-humble-launch-testing-ament-cmake <!nocheck>, ros-humble-launch-testing-ros <!nocheck>, ros-humble-nodl-python <!nocheck>, ros-humble-nodl-to-policy <!nocheck>, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rclpy, ros-humble-ros2launch-security, ros-humble-sensor-msgs, ros-humble-sros2 <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-ros2launch-security-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ament-nodl, ros-humble-example-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rclpy, ros-humble-ros2launch-security, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: Examples of how to use the ros2launch_security extension.
