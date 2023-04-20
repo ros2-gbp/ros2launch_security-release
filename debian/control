@@ -1,0 +1,12 @@
+Source: ros-iron-ros2launch-security-examples
+Section: misc
+Priority: optional
+Maintainer: Ted Kern <ted.kern@canonical.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-ament-nodl, ros-iron-example-interfaces, ros-iron-launch-testing <!nocheck>, ros-iron-launch-testing-ament-cmake <!nocheck>, ros-iron-launch-testing-ros <!nocheck>, ros-iron-nodl-python <!nocheck>, ros-iron-nodl-to-policy <!nocheck>, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rclpy, ros-iron-ros2launch-security, ros-iron-sensor-msgs, ros-iron-sros2 <!nocheck>, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-ros2launch-security-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ament-nodl, ros-iron-example-interfaces, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rclpy, ros-iron-ros2launch-security, ros-iron-sensor-msgs, ros-iron-ros-workspace
+Description: Examples of how to use the ros2launch_security extension.
