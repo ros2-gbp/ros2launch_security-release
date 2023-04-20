@@ -1,0 +1,12 @@
+Source: ros-iron-ros2launch-security
+Section: misc
+Priority: optional
+Maintainer: Ted Kern <ted.kern@canonical.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-iron-ament-copyright <!nocheck>, ros-iron-ament-flake8 <!nocheck>, ros-iron-ament-index-python, ros-iron-ament-pep257 <!nocheck>, ros-iron-demo-nodes-py <!nocheck>, ros-iron-launch-ros <!nocheck>, ros-iron-nodl-python, ros-iron-ros2launch, ros-iron-ros2launch <!nocheck>, ros-iron-sros2, ros-iron-sros2 <!nocheck>, ros-iron-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-ros2launch-security
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-iron-ament-index-python, ros-iron-nodl-python, ros-iron-ros2launch, ros-iron-sros2, ros-iron-ros-workspace
+Description: Security extensions for ros2 launch
