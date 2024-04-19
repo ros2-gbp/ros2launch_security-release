@@ -1,1 +1,1 @@
-{"base": "bdd262b", "parent": "debian/rolling/ros2launch_security_examples", "previous": "d88443d", "trim": "", "trimbase": ""}
+{"base": "8252dc0", "parent": "debian/jazzy/ros2launch_security_examples", "previous": "92ab1a1", "trim": "", "trimbase": ""}
