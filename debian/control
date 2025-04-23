@@ -1,0 +1,12 @@
+Source: ros-kilted-ros2launch-security-examples
+Section: misc
+Priority: optional
+Maintainer: Ted Kern <ted.kern@canonical.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-ament-nodl, ros-kilted-example-interfaces, ros-kilted-launch-testing <!nocheck>, ros-kilted-launch-testing-ament-cmake <!nocheck>, ros-kilted-launch-testing-ros <!nocheck>, ros-kilted-nodl-python <!nocheck>, ros-kilted-nodl-to-policy <!nocheck>, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rclpy, ros-kilted-ros2launch-security, ros-kilted-sensor-msgs, ros-kilted-sros2 <!nocheck>, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ros2launch-security-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ament-nodl, ros-kilted-example-interfaces, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rclpy, ros-kilted-ros2launch-security, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Description: Examples of how to use the ros2launch_security extension.
