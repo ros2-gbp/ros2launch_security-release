@@ -1,0 +1,12 @@
+Source: ros-lyrical-ros2launch-security-examples
+Section: misc
+Priority: optional
+Maintainer: Ted Kern <ted.kern@canonical.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ament-nodl, ros-lyrical-example-interfaces, ros-lyrical-launch-testing <!nocheck>, ros-lyrical-launch-testing-ament-cmake <!nocheck>, ros-lyrical-launch-testing-ros <!nocheck>, ros-lyrical-nodl-python <!nocheck>, ros-lyrical-nodl-to-policy <!nocheck>, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rclpy, ros-lyrical-ros2launch-security, ros-lyrical-sensor-msgs, ros-lyrical-sros2 <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ros2launch_security_examples/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ros2launch-security-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ament-nodl, ros-lyrical-example-interfaces, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rclpy, ros-lyrical-ros2launch-security, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Description: Examples of how to use the ros2launch_security extension.
