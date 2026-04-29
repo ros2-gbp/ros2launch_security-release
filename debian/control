@@ -1,0 +1,12 @@
+Source: ros-lyrical-ros2launch-security
+Section: misc
+Priority: optional
+Maintainer: Ted Kern <ted.kern@canonical.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-lyrical-ament-copyright <!nocheck>, ros-lyrical-ament-flake8 <!nocheck>, ros-lyrical-ament-index-python, ros-lyrical-ament-pep257 <!nocheck>, ros-lyrical-demo-nodes-py <!nocheck>, ros-lyrical-launch-ros <!nocheck>, ros-lyrical-nodl-python, ros-lyrical-ros2launch, ros-lyrical-ros2launch <!nocheck>, ros-lyrical-sros2, ros-lyrical-sros2 <!nocheck>, ros-lyrical-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: https://index.ros.org/p/ros2launch_security/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ros2launch-security
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-lyrical-ament-index-python, ros-lyrical-nodl-python, ros-lyrical-ros2launch, ros-lyrical-sros2, ros-lyrical-ros-workspace
+Description: Security extensions for ros2 launch
