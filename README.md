@@ -1,3 +1,28 @@
+## ros2launch_security (humble) - 1.0.2-1
+
+The packages in the `ros2launch_security` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble ros2launch_security -y --no-web` on `Thu, 10 Sep 2026 01:17:55 -0000`
+
+These packages were released:
+- `ros2launch_security`
+- `ros2launch_security_examples`
+
+Version of package(s) in repository `ros2launch_security`:
+
+- upstream repository: https://github.com/osrf/ros2launch_security.git
+- release repository: https://github.com/ros2-gbp/ros2launch_security-release.git
+- rosdistro version: `1.0.0-3`
+- old version: `1.0.0-3`
+- new version: `1.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## ros2launch_security (kilted) - 1.0.2-1
 
 The packages in the `ros2launch_security` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --track kilted ros2launch_security -y --no-web` on `Thu, 10 Sep 2026 01:15:19 -0000`
