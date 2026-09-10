@@ -1,0 +1,22 @@
+ros-lyrical-ros2launch-security-examples (1.0.2-1resolute) resolute; urgency=high
+
+  * Update dependency from nodl_python to nodl (#14 <https://github.com/osrf/ros2launch_security/issues/14>)
+  * Contributors: William Woodall
+
+ -- "Ted Kern" <ted.kern@canonical.com>  Thu, 10 Sep 2026 00:00:00 -0000
+
+ros-lyrical-ros2launch-security-examples (1.0.1-1resolute) resolute; urgency=high
+
+  * Make examples work with ament_nodl 2.0. (#13 <https://github.com/osrf/ros2launch_security/issues/13>)
+  * Contributors: Marco A. Gutierrez
+
+ -- "Ted Kern" <ted.kern@canonical.com>  Thu, 10 Sep 2026 00:00:00 -0000
+
+ros-lyrical-ros2launch-security-examples (1.0.0-1resolute) resolute; urgency=high
+
+  * Initial release.
+  * Contributors: Abrar Rahman Protyasha, William Woodall
+
+ -- "Ted Kern" <ted.kern@canonical.com>  Wed, 11 Aug 2021 00:00:00 -0000
+
+
